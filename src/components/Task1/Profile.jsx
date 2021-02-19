@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import defaultImage from './default.svg';
-import s from './Task1.module.scss';
+import s from './Profile.module.scss';
 
 const Profile = props => {
   const { name, tag, location, avatar, stats } = props;
